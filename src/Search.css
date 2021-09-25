@@ -4,3 +4,39 @@
 #searchbydistrict {
   display: none;
 }
+.search {
+  margin: 1.2rem;
+  margin-bottom: 0;
+}
+h3 {
+  color: whitesmoke;
+  font-size: 1.7em;
+}
+.search__criteria {
+  margin: 2rem;
+  margin-bottom: 0;
+  padding: 1.3em;
+}
+.btn {
+  height: 2em;
+  font-size: 1.3em;
+  margin: 0 1.5em;
+  background-color: #353535;
+  color: whitesmoke;
+  border: 2px solid blueviolet;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+.active,
+.btn:hover {
+  background-color: blueviolet;
+  color: #353535;
+  font-weight: bold;
+}
+#searchbypin,
+#searchbydistrict {
+  margin: 2rem;
+  padding: 1.3em;
+  margin-bottom: 0;
+}

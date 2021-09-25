@@ -1,5 +1,42 @@
 .center {
-  padding: 20px;
-  border: 2px solid black;
+  /* padding: 20px; */
+  /* border: 2px solid black; */
   margin: 20px;
+  line-height: 1.8rem;
+}
+.availability {
+  display: flex;
+}
+.vaccinename {
+  font-size: 1.3rem;
+}
+.dose1,
+.dose2 {
+  margin: 3px 20px;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+.center {
+  border: 1px solid #fff;
+  border-radius: 15px;
+  box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  position: relative;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+}
+.center:before {
+  background-color: rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(10px) saturate(100%) contrast(45%) brightness(130%);
+  content: "";
+  height: 100%;
+  position: absolute;
+  width: 100%;
+}
+.centertext {
+  padding: 20px;
+  z-index: 5;
+  position: relative;
 }
