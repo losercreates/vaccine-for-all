@@ -1,7 +1,7 @@
 # Vaccine-for-all
 
 This is the submissiosn for the Electra Hacks. The project allows the user to search the nearby vaccination centers by their pincode or the district.
-You can find the site here
+You can find the site [here](https://vaccine-for-all.netlify.app/)
 
 ## Installation
 
